@@ -107,11 +107,8 @@ export default function LandingPage() {
         </motion.div>
       </main>
 
-      <footer className="relative z-10 border-t border-gray-800 mt-20 py-8 text-center text-gray-400">
-        <p>&copy; 2024 SolanaWallet. All rights reserved.</p>
-      </footer>
+      <p>&copy; 2024 SolanaWallet. All rights reserved.</p>
 
-      <div className="fixed bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500"></div>
     </div>
   );
 }
